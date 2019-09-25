@@ -13,6 +13,14 @@ public class Destroyable : MonoBehaviour
     /// 폭발 이펙트 프리팹
     /// </summary>
     public GameObject explosion;
+    public OnDestroyAction destroyAction = OnDestroyAction.None;
+
+    public enum OnDestroyAction
+    {
+        None,
+        ReloadScene,
+
+    }
 
     // Use this for initialization
     void Start()
@@ -38,8 +46,13 @@ public class Destroyable : MonoBehaviour
     }
     private void OnCollisionStay (Collision collision)
     {
-        if (collision.collider.CompareTag("SaberBlade"))
+       
+        if (collision.collider.CompareTag("SaberBlade")) // On collision with blade
         {
+
+            if (destroyAction == OnDestroyAction.ReloadScene)
+                UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex);
+
             Debug.Log((precursor == null || !precursor.isActiveAndEnabled));
             if ((precursor == null || !precursor.isActiveAndEnabled))
             {
