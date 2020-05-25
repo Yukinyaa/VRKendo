@@ -5,7 +5,7 @@
       "app_key": "application.generated.unity.vivekendo.exe",
       "launch_type": "url",
       "url": "steam://launch/",
-      "action_manifest_path": "C:\\Users\\VRLAB\\Documents\\_Git\\VRKendo\\actions.json",
+      "action_manifest_path": "C:\\Users\\woong\\Documents\\_Git\\VRKendo\\actions.json",
       "strings": {
         "en_us": {
           "name": "Vive Kendo [Testing]"

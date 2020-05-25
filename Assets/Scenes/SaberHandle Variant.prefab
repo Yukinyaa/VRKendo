@@ -177,6 +177,56 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -7955199872737193836, guid: 47dec78e79e0c834d8dd9331790ef158,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -2700194178795864487, guid: 47dec78e79e0c834d8dd9331790ef158,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -2700194178795864487, guid: 47dec78e79e0c834d8dd9331790ef158,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2700194178795864487, guid: 47dec78e79e0c834d8dd9331790ef158,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2700194178795864487, guid: 47dec78e79e0c834d8dd9331790ef158,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2700194178795864487, guid: 47dec78e79e0c834d8dd9331790ef158,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2700194178795864487, guid: 47dec78e79e0c834d8dd9331790ef158,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2700194178795864487, guid: 47dec78e79e0c834d8dd9331790ef158,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2700194178795864487, guid: 47dec78e79e0c834d8dd9331790ef158,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2700194178795864487, guid: 47dec78e79e0c834d8dd9331790ef158,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 47dec78e79e0c834d8dd9331790ef158, type: 3}
       propertyPath: m_Name
       value: SaberHandle Variant
@@ -236,6 +286,11 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 47dec78e79e0c834d8dd9331790ef158, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.197314
+      objectReference: {fileID: 0}
+    - target: {fileID: 1276603737757889232, guid: 47dec78e79e0c834d8dd9331790ef158,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 47dec78e79e0c834d8dd9331790ef158, type: 3}

@@ -14,7 +14,7 @@ public class Destroyable : MonoBehaviour
     /// </summary>
     public GameObject explosion;
     public OnDestroyAction destroyAction = OnDestroyAction.None;
-
+    public bool destoryable = false;
     public enum OnDestroyAction
     {
         None,
@@ -46,7 +46,6 @@ public class Destroyable : MonoBehaviour
     }
     private void OnCollisionStay (Collision collision)
     {
-       
         if (collision.collider.CompareTag("SaberBlade")) // On collision with blade
         {
 
